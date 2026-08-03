@@ -1,0 +1,12 @@
+logging:
+  level: INFO
+  rotation: "00:00"
+  retention: "30 days"
+
+ai:
+  provider: gemini
+
+  gemini:
+    api_key: ""
+    model: "gemini-2.5-flash"
+    timeout: 30
